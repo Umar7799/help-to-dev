@@ -1,0 +1,79 @@
+@media screen and (max-width: 1160px) {
+    .scQuestionBoxes {
+        display: block;
+    }
+
+    .rightElement {
+        display: none;
+    }
+
+    .whatProblem {
+        margin-right: 20px;
+    }
+
+    .whatExpecting {
+        margin-left: 31px;
+    }
+
+}
+
+
+@media screen and (max-width: 930px) {
+    .questionBoxes {
+        display: block;
+    }
+
+    .introduce {
+        margin-top: 16px;
+        margin-left: 31px;
+        height: 150px;
+    }
+
+}
+
+
+@media screen and (max-width: 669px) {
+    .writeQuestion {
+        min-width: auto;
+        width: auto;
+    }
+
+    .introduce {
+        margin-left: 20px;
+    }
+
+    .whatProblem {
+        min-width: auto;
+    }
+
+    .whatExpecting {
+        min-width: auto;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .whatExpecting {
+        margin-left: 20px;
+    }
+}
+
+.upload-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.upload-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}

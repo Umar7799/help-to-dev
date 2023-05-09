@@ -1,0 +1,136 @@
+@media screen and (max-width: 768px) {
+  .Navigation {
+    display: block;
+  }
+}
+
+
+
+.firstCards {
+  padding-right: 380px;
+}
+
+@media screen and (max-width: 1023px) {
+  .firstCards {
+    padding-right: 180px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .firstCards {
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .firstCard {
+    margin-left: 17px;
+    margin-right: 8px;
+  }
+
+  .first {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+
+@media screen and (max-width: 1050px) {
+  .secondCardBottom {
+    display: block;
+  }
+
+  .newest {
+    padding-bottom: 15px;
+    text-align: left;
+  }
+
+  .autobiographer {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  .firstCard {
+    width: calc(100% - 25px);
+  }
+
+
+  .secondCardBottom {
+    display: flex;
+    margin: 15px 0 0;
+  }
+
+  .autobiographer {
+    margin-left: 150px;
+    margin-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+}
+
+
+
+
+
+@media screen and (max-width: 1230px) {
+  .doubleLine {
+    display: block;
+    max-width: calc(100vw - 380px);
+    margin: auto;
+    margin-left: 0;
+
+  }
+
+  .title {
+    display: block;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .box {
+    width: 100%;
+  }
+
+
+}
+
+@media screen and (max-width: 1023px) {
+  .doubleLine {
+    margin-left: 25px;
+    max-width: calc(100vw - 250px);
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .doubleLine {
+    margin-left: 16px;
+    max-width: calc(100vw - 55px);
+  }
+
+}
+
+@media screen and (max-width: 1180px) {
+  .fourthCards {
+    padding-right: 400px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .fourthCards {
+    padding-right: 230px;
+    padding-left: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fourthCards {
+    padding-right: 40px;
+    padding-left: 18px;
+  }
+}
